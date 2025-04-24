@@ -1,5 +1,7 @@
 # BetterBCS
 
+BetterBCS is a personal project structured around creating another version of BCS rankings, and then ultimately working into creating an algorithm to track and predict headto head matchups week to week.
+
 ## File Structure
 ```
 BetterBCS/
