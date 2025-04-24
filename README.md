@@ -1,6 +1,6 @@
 # BetterBCS
 
-##File Structure
+## File Structure
 ```
 BetterBCS/
 │
