@@ -9,11 +9,17 @@ BetterBCS/
 │
 ├── scripts/
 │   ├── db_management/         
-|   |   ├── createDB.py       # Creates SQLite database and tables
-|   |   ├── fillDB.py         # Populates teams, games, and team stats
-|   |   └── testDB.py
+|   |   ├── createDB.py            # Creates SQLite database and tables
+|   |   ├── fillDB.py              # Populates teams, games, and team stats
+|   |   └── testDB.py              # Checks to make sure DBs are filled
+│   ├── mrankings/         
+|   |   ├── fillRanks.py           # Calculates average stats and fills out statistcal rankings
+|   |   ├── fillElo.py             # Calculates elo off of stats and wins and losses, ulitizes strength of opponent with decay as well.
+|   |   ├── rankCheck.py           # Test to make sure ranks are filled
+|   |   ├── eloCheck2.py           # Checks to make sure elos are filled in
+|   |   └── elorankDisplay.py      # Displays ranks over time includeing delta elo, then also creates graphs for top10 teams at end of season elo overtime
 │   ├── model_training/
-|   |   └── [model training scripts location]
+|   |   └── bayesian-trainModel.py # Online learning model with bayesian weights.
 │
 ├── models/
 │   └── [optional trained models or priors if saved]
